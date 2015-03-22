@@ -1,8 +1,5 @@
  ;; ex 1.16 
   
- (define (square x)
-   (* x x)) 
-  
  (define (fast-expt b n) 
    (define (iter a b n) 
      (cond ((= n 0) a) 

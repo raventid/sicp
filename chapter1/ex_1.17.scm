@@ -15,6 +15,23 @@ Assume double and halve are defined by the language
 ;  (* 5 1) 
 ;  (* 7 10)     
 ;
+;
+;Example of recursive process
+ ; (fast-mult 3 7) 
+ ; (+ 3 (fast-mult 3 6)) 
+ ; (+ 3 (double (fast-mult 3 3)) 
+ ; (+ 3 (double (+ 3 (fast-mult 3 2)))) 
+ ; (+ 3 (double (+ 3 (double (fast-mult 3 1))))) 
+ ; (+ 3 (double (+ 3 (double (+ 3 (fast-mult 3 0)))))) 
+ ; (+ 3 (double (+ 3 (double (+ 3 0))))) 
+ ; (+ 3 (double (+ 3 (double 3)))) 
+ ; (+ 3 (double (+ 3 6))) 
+ ; (+ 3 (double 9)) 
+ ; (+ 3 18) 
+ ; 21
+;
+;
+;
 ;using tail recursion achieves better space order of growth of theta(1)
 
  (define (fast-mult-by-add a b) 

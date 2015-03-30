@@ -1,3 +1,5 @@
+; Execution of first procedure uses recursion
+;
 ; (+ 4 5) 
 ; (inc (+ (dec 4) 5)) 
 ; (inc (+ 3 5)) 

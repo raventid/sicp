@@ -1,5 +1,12 @@
 ; Execution of first procedure uses recursion
 ;
+;
+(define (+ a b)
+  (if (= a 0)
+      b
+      (inc (+ (dec a) b))))
+;
+;
 ; (+ 4 5) 
 ; (inc (+ (dec 4) 5)) 
 ; (inc (+ 3 5)) 
@@ -19,7 +26,10 @@
 ;
 ;
 ;
-;
+(define (+ a b)
+  (if (= a 0)
+      b
+      (+ (dec a) (inc b))))
 ;
 ;
 ; Other execution is iterative

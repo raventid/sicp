@@ -1,3 +1,3 @@
 https://tobilehman.com/blog/2013/04/07/visualization-of-sicp-exercise-1-dot-14/ - perfect virtualization by Tobi Lehman.
 
-https://wqzhang.wordpress.com/2009/06/09/sicp-exercise-1-14/ - mathematical foundation
+https://wqzhang.wordpress.com/2009/06/09/sicp-exercise-1-14/ - mathematical foundation for this algo

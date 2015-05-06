@@ -1,6 +1,7 @@
 # SICP
 SICP with Scheme
-
-Chap 1 til aug <br />
-Chap 2 til oct <br />
-Chap 3 til dec <br />
+<ul>
+<li>Chap 1 til aug <br /></li>
+<li>Chap 2 til oct <br /></li>
+<li>Chap 3 til dec <br /></li>
+</ul>

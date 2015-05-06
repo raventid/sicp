@@ -1,4 +1,4 @@
-# sicp
+# SICP
 SICP with Scheme
 
 Chap 1 til aug <br />

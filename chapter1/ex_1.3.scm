@@ -1,5 +1,6 @@
  ;; ex 1.3 
- ;; implemented using only techniques covered to this point 
+ ;; implemented using only techniques covered to this point
+ ;; todo add another solution later
   
  (define (square x) (* x x)) 
   

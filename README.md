@@ -1,9 +1,4 @@
 # SICP
-<style>
-  li {
-   color: red
-  }
-</style>
 SICP with Scheme
 <ul>
 <li><i>Chap 1 til aug</i><br /></li>

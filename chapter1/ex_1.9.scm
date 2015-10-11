@@ -25,14 +25,14 @@
 ;
 ;
 ;
-;
+; Other execution is iterative
+
 (define (+ a b)
   (if (= a 0)
       b
       (+ (dec a) (inc b))))
 ;
 ;
-; Other execution is iterative
 ;
 ; (+ 4 5) 
 ; (+ (dec 4) (inc 5)) 

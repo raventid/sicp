@@ -1,6 +1,6 @@
 ;n example for illustrating the algorithm: 3 * 10 = 3 * (2 * (10 / 2)) = 3 * (2 * 5) = 6 * 5 = 6 * (4 + 1) = 6 * 4 + 6 = 6 * (2 * (4 / 2)) + 6 = 6 * (2 * 2) + 6 = 6 * 2 * 2 + 6 = 12 * 2 + 6 = 24 + 6 = 30.
 ;
-Assume double and halve are defined by the language 
+;Assume double and halve are defined by the language 
  (define (double x) (+ x x)) 
  (define (halve x) (/ x 2)) 
   

@@ -1,3 +1,6 @@
+;; ex 1.4
+;; summ a and b where b is always ansolute value of variable
+
 (define (a-plus-abs-b a b)
   ((if (> b 0) + -) a b))
 

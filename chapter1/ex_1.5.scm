@@ -1,3 +1,5 @@
+;; ex 1.5
+
 (define (p)(p))
 (define (test x y)
   (if (= x 0)

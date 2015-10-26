@@ -1,3 +1,5 @@
+;; ex 1.7
+
 (define (good-enough? guess x)
  (< (abs (- (square guess) x)) 0.001))
 
